@@ -24,10 +24,11 @@
       <div class="container">
         <div class="div-block">
           <a href="index.html" aria-current="page" class="logo w-inline-block w--current"><img src="images/ScheduleUp.svg" loading="lazy" alt="" class="desk_logo"><img src="images/Sup.svg" loading="lazy" alt="" class="mob_logo"></a>
-          <a href="#" class="cta">Learn more
-            <div class="calendly-inline-widget" data-url="https://calendly.com/scheduleup" style="min-width:320px;height:630px;"></div>
-            <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-          </a>
+          <a href="" class="cta" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/scheduleup'});return false;">Learn More</a>
+          <!-- Calendly link widget begin -->
+          <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+          <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+          <!-- Calendly link widget end -->
         </div>
         <div class="header_content">
           <div class="div-block-2">
